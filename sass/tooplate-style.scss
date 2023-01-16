@@ -474,15 +474,6 @@ b, strong {
   	}
 }
 
-
-// GOOGLE MAP
-.google-map {
-	iframe {
-		width: 100%;
-	}
-}
-
-
 // CONTACT FORM
 .contact-form {
 	position: relative;
@@ -562,6 +553,10 @@ b, strong {
 
 	.about-image {
 		margin-top: 4em;
+	}
+
+	.sign-off-image {
+		border-radius: 50%;
 	}
 
 	.mobile-mt-2,

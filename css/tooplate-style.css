@@ -103,6 +103,34 @@ b, strong {
   color: #ffffff !important;
 }
 
+.custom-btn-invert {
+  background: #eee;
+  color: #ffc200;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 13px 29px;
+  font-size: 14px;
+  line-height: normal;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.custom-btn-invert:hover {
+  color: #474559;
+}
+.custom-btn-invert.custom-btn-bg {
+  background: #ffc200;
+  color: #ffffff;
+}
+.custom-btn-invert.custom-btn-bg:hover {
+  background: #474559;
+  color: #ffffff !important;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: end;
+}
+
 .animated {
   position: relative;
 }
@@ -111,7 +139,7 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 260px;
+  min-width: 350px;
   position: relative;
 }
 
@@ -567,4 +595,10 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+}
+
+.project-item {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: start;
 }
